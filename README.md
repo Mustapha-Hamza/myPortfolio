@@ -26,15 +26,15 @@ Welcome to my **personal portfolio** website! This site showcases my skills, pro
 ## 📍 Live Demo
 
 Check out the live version of my portfolio here:  
-👉 [https://your-portfolio-link.vercel.app](https://your-portfolio-link.vercel.app)
+👉 [https://your-portfolio-link.vercel.app](https://mah_dev.vercel.app)
 
 ## 📬 Contact
 
 If you’d like to collaborate, hire me, or just say hi:
 
-- **Email**: yourname@example.com  
-- **LinkedIn**: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)  
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- **Email**: mustapha.hamza7@gmail.com  
+- **LinkedIn**: [linkedin.com/in/yourname](https://linkedin.com/in/mustapha_hamza)  
+- **GitHub**: [github.com/yourusername](https://github.com/Mustapha-Hamza)
 
 ## 📝 License
 
