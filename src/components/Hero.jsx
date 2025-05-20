@@ -85,7 +85,7 @@ const Hero = () => {
 
             <motion.p
               variants={childVariants}
-              className="my-2 max-w-full py-6 text-base sm:text-xl leading-relaxed tracking-tighter"
+              className="my-2 max-w-full py-6 text-xs sm:text-base leading-relaxed tracking-tighter"
             >
               {HERO_CONTENT}
             </motion.p>

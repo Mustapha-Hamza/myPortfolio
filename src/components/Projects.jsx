@@ -34,12 +34,12 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4"
+              className="w-full max-w-xl lg:w-3/4 mb-2"
             >
               <h3 className="mb-2 font-semibold text-xl sm:text-2xl">
                 {project.title}
               </h3>
-              <p className="mb-4 text-base sm:text-xl text-stone-400">
+              <p className="mb-4 text-xs sm:text-base text-stone-400">
                 {project.description}
               </p>
               <div className="flex flex-wrap">
