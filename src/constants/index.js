@@ -59,7 +59,7 @@ export const PROJECTS = [
     github: "https://github.com/your-username/hirehome-app",
   },
   {
-    title: "Gym Website",
+    title: "GymNex App",
     image: project3,
     description:
       "A modern and responsive gym website showcasing available fitness plans, multiple training programs, client testimonials, and contact options. Built to provide an engaging experience and easy access to enrollment information",

@@ -34,7 +34,7 @@ const Hero = () => {
             <motion.img
               src={PortfolioPic}
               alt="Mustapha Hamza"
-              className=" border-stone-900 rounded-4xl h-90 sm:h-120"
+              className=" border-stone-900 rounded-4xl w-80 h-80 sm:h-120"
               width={350}
               height={350}
               initial={{ x: 100, opacity: 0 }}
@@ -85,7 +85,7 @@ const Hero = () => {
 
             <motion.p
               variants={childVariants}
-              className="my-2 max-w-full py-6 text-xs sm:text-base leading-relaxed tracking-tighter"
+              className="my-1 max-w-full py-6 text-xs sm:text-base leading-relaxed tracking-tighter"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -95,7 +95,7 @@ const Hero = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="bg-white rounded-full p-4 text-xs sm:text-sm text-stone-800 mb-10 shadow-lg hover:shadow-2xl"
+              className="bg-white rounded-full p-2 sm:p-4 text-xs sm:text-sm text-stone-800 mb-10 shadow-lg hover:shadow-2xl"
             >
               Download Resume
             </motion.a>

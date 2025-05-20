@@ -45,7 +45,7 @@ const Projects = () => {
               <div className="flex flex-wrap">
                 {project.technologies.map((tech, index) => (
                   <span
-                    className="mr-2 mt-2 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300"
+                    className="mr-2 mt-2 rounded bg-stone-900 px-2 py-1 text-xs font-medium text-stone-300"
                     key={index}
                   >
                     {tech}
@@ -57,7 +57,7 @@ const Projects = () => {
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block rounded-2xl border border-black bg-white px-3 py-1.5 text-sm text-black transition-transform duration-200 ease-in-out transform hover:scale-105 hover:shadow-md cursor-pointer"
+                  className="inline-block rounded-2xl border border-black bg-white px-3 py-2 text-xs text-black transition-transform duration-200 ease-in-out transform hover:scale-105 hover:shadow-md cursor-pointer"
                 >
                   Live Demo
                 </a>
@@ -65,7 +65,7 @@ const Projects = () => {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block rounded-2xl border border-black bg-white px-3 py-1.5 text-sm text-black transition-transform duration-200 ease-in-out transform hover:scale-105 hover:shadow-md cursor-pointer"
+                  className="inline-block rounded-2xl border border-black bg-white px-3 py-2 text-xs text-black transition-transform duration-200 ease-in-out transform hover:scale-105 hover:shadow-md cursor-pointer"
                 >
                   GitHub Repo
                 </a>
