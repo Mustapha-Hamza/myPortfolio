@@ -5,13 +5,16 @@ import logo from "../assets/portfolioLogo.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between py-6">
+    <nav className="flex items-center justify-between py-4 sm:py-6">
       <div className="flex flex-shrink-0 items-center">
         <a href="/" aria-label="Home">
-          <img src={logo} className="mx-2" width={50} height={33} />
+          <img
+            src={logo}
+            className="mx-2 w-[50px] h-[40px] sm:w-[50px] sm:h-[50px]"
+          />
         </a>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="m-2 sm:m-8 flex items-center justify-center gap-3  text-xl sm:gap-4 sm:text-2xl ">
         <a
           href="https://linkedin.com/in/mustapha-hamza"
           target="_blank"

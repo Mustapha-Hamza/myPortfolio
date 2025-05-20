@@ -35,7 +35,7 @@ const Technologies = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        className="my-10 text-center text-4xl"
+        className="my-10 text-center  text-2xl sm:text-4xl"
       >
         TECHNOLOGIES
       </motion.h2>
@@ -50,7 +50,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconVariants(2.5)}
         >
-          <FaHtml5 className="text-7xl text-orange-500" />
+          <FaHtml5 className=" text-5xl sm:text-7xl text-orange-500" />
         </motion.div>
 
         <motion.div
@@ -58,7 +58,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconVariants(3)}
         >
-          <FaCss3Alt className="text-7xl text-blue-500" />
+          <FaCss3Alt className="text-5xl sm:text-7xl text-blue-500" />
         </motion.div>
 
         <motion.div
@@ -66,7 +66,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconVariants(3.5)}
         >
-          <FaSass className="text-7xl text-pink-500" />
+          <FaSass className="text-5xl sm:text-7xl text-pink-500" />
         </motion.div>
 
         <motion.div
@@ -74,7 +74,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconVariants(2.5)}
         >
-          <FaJs className="text-7xl text-yellow-400" />
+          <FaJs className="text-5xl sm:text-7xl text-yellow-400" />
         </motion.div>
 
         <motion.div
@@ -83,7 +83,7 @@ const Technologies = () => {
           variants={iconVariants(3)}
           className="p-4"
         >
-          <SiTypescript className="text-7xl text-blue-500" />
+          <SiTypescript className="text-5xl sm:text-7xl text-blue-500" />
         </motion.div>
 
         {/*  */}
@@ -92,7 +92,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconVariants(2.5)}
         >
-          <FaReact className="text-7xl text-cyan-400" />
+          <FaReact className="text-5xl sm:text-7xl text-cyan-400" />
         </motion.div>
 
         <motion.div
@@ -101,7 +101,7 @@ const Technologies = () => {
           variants={iconVariants(2)}
           className="p-4"
         >
-          <SiReactrouter className="text-7xl text-red-500" />
+          <SiReactrouter className="text-5xl sm:text-7xl text-red-500" />
         </motion.div>
 
         <motion.div
@@ -110,7 +110,7 @@ const Technologies = () => {
           variants={iconVariants(5)}
           className="p-4"
         >
-          <SiRedux className="text-7xl text-purple-500" />
+          <SiRedux className="text-5xl sm:text-7xl text-purple-500" />
         </motion.div>
 
         <motion.div
@@ -119,7 +119,7 @@ const Technologies = () => {
           variants={iconVariants(2.5)}
           className="p-4"
         >
-          <SiReactquery className="text-7xl text-red-500" />
+          <SiReactquery className="text-5xl sm:text-7xl text-red-500" />
         </motion.div>
 
         <motion.div
@@ -128,7 +128,7 @@ const Technologies = () => {
           variants={iconVariants(4)}
           className="p-4"
         >
-          <SiReacthookform className="text-7xl text-rose-500" />
+          <SiReacthookform className="text-5xl sm:text-7xl text-rose-500" />
         </motion.div>
 
         <motion.div
@@ -137,7 +137,7 @@ const Technologies = () => {
           variants={iconVariants(3.5)}
           className="p-4"
         >
-          <TbBrandFramerMotion className="text-7xl text-fuchsia-500" />
+          <TbBrandFramerMotion className="text-5xl sm:text-7xl text-fuchsia-500" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -145,7 +145,7 @@ const Technologies = () => {
           variants={iconVariants(6)}
           className="p-4"
         >
-          <RiTailwindCssFill className="text-7xl text-teal-400" />
+          <RiTailwindCssFill className="text-5xl sm:text-7xl text-teal-400" />
         </motion.div>
 
         <motion.div
@@ -154,7 +154,7 @@ const Technologies = () => {
           variants={iconVariants(6)}
           className="p-4"
         >
-          <FaGitAlt className="text-7xl text-orange-600" />
+          <FaGitAlt className="text-5xl sm:text-7xl text-orange-600" />
         </motion.div>
       </motion.div>
     </div>

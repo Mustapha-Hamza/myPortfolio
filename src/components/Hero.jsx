@@ -30,11 +30,11 @@ const Hero = () => {
     <div className="pb-4 lg:mb-36">
       <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
-          <div className="flex justify-center lg:p-8">
+          <div className="flex justify-center  lg:p-8">
             <motion.img
               src={PortfolioPic}
               alt="Mustapha Hamza"
-              className=" boder-stone-900 rounded-4xl h-120"
+              className=" border-stone-900 rounded-4xl h-90 sm:h-120"
               width={350}
               height={350}
               initial={{ x: 100, opacity: 0 }}
@@ -52,12 +52,12 @@ const Hero = () => {
           >
             <motion.h2
               variants={childVariants}
-              className="pb-2 text-4xl tracking-tighter lg:text-7xl"
+              className="pb-2 text-xl sm:text-4xl tracking-tighter lg:text-7xl"
             >
               Mustapha Abdulrasheed Hamza
             </motion.h2>
             <motion.div
-              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent flex flex-wrap"
+              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-lg sm:text-2xl tracking-tight text-transparent flex flex-wrap"
               initial="hidden"
               animate="visible"
               variants={{
@@ -85,7 +85,7 @@ const Hero = () => {
 
             <motion.p
               variants={childVariants}
-              className="my-2 max-w-full py-6 text-xl leading-relaxed tracking-tighter"
+              className="my-2 max-w-full py-6 text-base sm:text-xl leading-relaxed tracking-tighter"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -95,7 +95,7 @@ const Hero = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 shadow-lg hover:shadow-2xl"
+              className="bg-white rounded-full p-4 text-xs sm:text-sm text-stone-800 mb-10 shadow-lg hover:shadow-2xl"
             >
               Download Resume
             </motion.a>
