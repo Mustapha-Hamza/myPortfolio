@@ -63,7 +63,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A modern and responsive gym website showcasing available fitness plans, multiple training programs, client testimonials, and contact options. Built to provide an engaging experience and easy access to enrollment information",
-    technologies: ["CSS", "JavaScript", "React", "Framer Motion", "Node.js"],
+    technologies: ["CSS", "JavaScript", "React", "Framer Motion", "Git"],
     url: "https://gymnex-fitness.netlify.app",
     github: "https://github.com/Mustapha-Hamza/Gym-Nex",
   },
@@ -72,7 +72,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Banklist is a responsive banking app offering instant loans, real-time transfers, account closures, and easy account openings. It also features client testimonials, ensuring a smooth and secure banking experience across all devices.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "JavaScript", "Git"],
     url: "https://gobankist.netlify.app",
     github: "https://github.com/Mustapha-Hamza/Bankist_App",
   },
@@ -82,7 +82,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "StudioLuminous is a sleek and responsive photography website that showcases a range of professional portfolios including weddings, events, and portraits. Designed for visual impact and user experience, it highlights the studio’s creative services with elegance and clarity.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "JavaScript", "Git"],
     url: "https://studioluminous.netlify.app",
     github: "https://github.com/Mustapha-Hamza/luminous_Studio_App",
   },
