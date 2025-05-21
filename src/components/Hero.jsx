@@ -34,7 +34,7 @@ const Hero = () => {
             <motion.img
               src={PortfolioPic}
               alt="Mustapha Hamza"
-              className=" border-stone-900 rounded-4xl w-80 h-80 sm:h-120"
+              className=" border-stone-900 rounded-4xl w-65 h-80 sm:h-120"
               width={350}
               height={350}
               initial={{ x: 100, opacity: 0 }}
