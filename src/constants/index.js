@@ -10,10 +10,18 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: " 2022 - Present",
-    role: "ICT Instructor and Support Officer ",
+    role: "ICT Instructor & IT Support Officer ",
     company: " Cairo International School",
     description: `Maintained and optimized the school’s IT infrastructure to ensure a secure, reliable, and efficient learning environment. Delivered prompt technical support to staff and students, minimizing downtime and disruptions. Developed and taught practical, curriculum-aligned courses covering programming, graphic design, and digital literacy, equipping students with essential skills for real-world technology use.`,
-    technologies: ["HTML", "CSS", "JavaScript", "MS Suite", "EdTech"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Linux",
+      "Windows OS",
+      "MS Suite",
+      "EdTech",
+    ],
   },
 
   {
