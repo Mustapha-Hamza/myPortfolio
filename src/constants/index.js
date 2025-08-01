@@ -64,7 +64,7 @@ export const PROJECTS = [
       "Tailwind CSS",
     ],
     url: "https://hirehome.vercel.app",
-    github: "https://github.com/your-username/hirehome-app",
+    github: "https://github.com/Mustapha-Hamza/HireHome",
   },
   {
     title: "GymNex App",
