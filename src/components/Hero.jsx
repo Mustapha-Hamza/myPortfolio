@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioPic from "../assets/HeadShot_Pic.png";
+import PortfolioPic from "../assets/myCPic.png";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
