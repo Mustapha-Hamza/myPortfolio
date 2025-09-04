@@ -90,7 +90,7 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-              href="https://drive.google.com/uc?export=download&id=1MacvgkXZ09j-mkaiE8q2dc1GF4o8hhtP"
+              href="https://drive.google.com/uc?export=download&id=1QWKIfm8qUi28ZhCUa8gkD7t6Vrf1vkiu"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}

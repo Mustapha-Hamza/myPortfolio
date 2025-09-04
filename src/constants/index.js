@@ -9,7 +9,25 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: " 2022 - Present",
+    year: " 2025 - present",
+    role: "Technical Support Specialist  ",
+    company: " Zenkleus Limited",
+    description: `Diagnosed, troubleshooted, and resolved client software, account, and system issues to ensure seamless platform usage. Tested fixes, validated bug resolutions, and collaborated closely with development teams to enhance overall performance. Supported client onboarding and delivered user training sessions, enabling efficient platform adoption and minimizing disruptions.`,
+    technologies: [
+      "Windows OS",
+      "Linux",
+      "Microsoft 365",
+      "Trello",
+      "Zoho Desk",
+      "Jira",
+      "Networking",
+      "Troubleshooting",
+      "EduTech",
+    ],
+  },
+
+  {
+    year: " 2022 - 2025",
     role: "ICT Instructor & IT Support Officer ",
     company: " Cairo International School",
     description: `Maintained and optimized the school’s IT infrastructure to ensure a secure, reliable, and efficient learning environment. Delivered prompt technical support to staff and students, minimizing downtime and disruptions. Developed and taught practical, curriculum-aligned courses covering programming, graphic design, and digital literacy, equipping students with essential skills for real-world technology use.`,
